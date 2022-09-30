@@ -52,13 +52,60 @@ if(number3>number2){
 
 }
 
-let number4= Number(prompt("How long is the first side"))
-let number5= Number(prompt("How long is the second side side"))
-let number6= Number(prompt("How long is the third side"))
+let side1 = Number(prompt("How long is the first side"))
+let side2 = Number(prompt("How long is the second side side"))
+let side3 = Number(prompt("How long is the third side"))
 
-if (number4==number5){
-if (number5==number6) 
-if (number6==number6){
+if (side1==side2){
+if (side2==side3) 
+if (side3==side1){
     console.log("This is a equailteral triangle")
 }
 }
+ if(side1==side2){
+if(side1!=side3){
+    console.log("This is a scalene triangle")
+}
+}
+ if(side1==side3){
+    if(side2!=side3){
+        console.log("This is a scalene triangle")
+ }
+ }
+ if(side3==side2){
+if(side1!=side3){
+console.log("This is a scalene triangle")
+ }
+ }
+ else if(side1!=side2){
+    if(side2!=side3)
+    if(side1!=side3){
+        console.log("This is a isoceles triangle")
+    }
+    }
+    let sum =  prompt("Enter a arthematic operation")
+    let num1 = Number(prompt("Enter a number"))
+    let num2 = Number(prompt("Enter a number"))
+
+    if (sum  == "add"){
+        console.log(num1+num2)
+    }
+    else if (sum == "subtract"){
+        console.log(num1-num2)
+    }
+    else if (sum == "mutiple"){
+        console.log(num1*num2)
+    }
+    else if (sum == "divide"){
+        console.log(num1/num2)
+    }
+     else if (sum == "modelus"){
+        console.log(num1%num2)
+    }
+    else if (console.log("invaild operation")){
+
+    }
+    
+
+
+
