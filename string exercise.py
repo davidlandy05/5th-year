@@ -29,7 +29,7 @@ print(FINAL)
 user=input("Enter any word")
 answer=user.upper()
 print(answer)
-"""
+
 user=input("your first name")
 lenght=len(user)
 if lenght<5:
@@ -40,4 +40,9 @@ if lenght>=5:
     user2=user.upper()
     print(user2)
     
-    
+    """
+#answer
+Word=input("Enter your word")
+Word=Word.lower()
+Letter=	Word[0]
+
